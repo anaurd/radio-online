@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(to right, #ff5500, #d04000);
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero {
+    background: #555;
+    color: white;
+    padding: 40px 10px;
+}
+
+.stations .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.station {
+    background: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.station button {
+    background: orange;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.feedback {
+    background: #222;
+    color: white;
+    padding: 20px;
+    margin: 30px auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.feedback textarea {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.feedback button {
+    background: orange;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 10px;
+}
